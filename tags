@@ -1,0 +1,480 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Accept	code/src/csapp.c	/^int Accept(int s, struct sockaddr *addr, socklen_t *addrlen) $/;"	f	language:C	signature:(int s, struct sockaddr *addr, socklen_t *addrlen)
+Accept	common/csapp.c	/^int Accept(int s, struct sockaddr *addr, socklen_t *addrlen)$/;"	f	language:C	signature:(int s, struct sockaddr *addr, socklen_t *addrlen)
+Alarm	code/src/csapp.c	/^unsigned int Alarm(unsigned int seconds) {$/;"	f	language:C	signature:(unsigned int seconds)
+Alarm	common/csapp.c	/^unsigned int Alarm(unsigned int seconds) {$/;"	f	language:C	signature:(unsigned int seconds)
+Bind	code/src/csapp.c	/^void Bind(int sockfd, struct sockaddr *my_addr, int addrlen) $/;"	f	language:C	signature:(int sockfd, struct sockaddr *my_addr, int addrlen)
+Bind	common/csapp.c	/^void Bind(int sockfd, struct sockaddr *my_addr, int addrlen)$/;"	f	language:C	signature:(int sockfd, struct sockaddr *my_addr, int addrlen)
+CC	sample/ch12/Makefile	/^CC = gcc$/;"	m	language:Make
+CFLAGS	sample/ch12/Makefile	/^CFLAGS = -Wall$/;"	m	language:Make
+CHUNKSIZE	code/vm/malloc/mm.c	23;"	d	language:C	file:
+CLEARCACHE	code/mem/matmult/mm.c	9;"	d	language:C	file:
+CONVERT	code/ecf/rfork.c	16;"	d	language:C	file:
+Calloc	code/src/csapp.c	/^void *Calloc(size_t nmemb, size_t size) $/;"	f	language:C	signature:(size_t nmemb, size_t size)
+Calloc	common/csapp.c	/^void *Calloc(size_t nmemb, size_t size)$/;"	f	language:C	signature:(size_t nmemb, size_t size)
+Close	code/src/csapp.c	/^void Close(int fd) $/;"	f	language:C	signature:(int fd)
+Close	common/csapp.c	/^void Close(int fd)$/;"	f	language:C	signature:(int fd)
+Connect	code/src/csapp.c	/^void Connect(int sockfd, struct sockaddr *serv_addr, int addrlen) $/;"	f	language:C	signature:(int sockfd, struct sockaddr *serv_addr, int addrlen)
+Connect	common/csapp.c	/^void Connect(int sockfd, struct sockaddr *serv_addr, int addrlen)$/;"	f	language:C	signature:(int sockfd, struct sockaddr *serv_addr, int addrlen)
+DEF_MODE	code/include/csapp.h	30;"	d	language:C++
+DEF_MODE	common/csapp.h	30;"	d	language:C++
+DEF_UMASK	code/include/csapp.h	31;"	d	language:C++
+DEF_UMASK	common/csapp.h	31;"	d	language:C++
+DSIZE	code/vm/malloc/mm.c	22;"	d	language:C	file:
+Dup2	code/src/csapp.c	/^int Dup2(int fd1, int fd2) $/;"	f	language:C	signature:(int fd1, int fd2)
+Dup2	common/csapp.c	/^int Dup2(int fd1, int fd2)$/;"	f	language:C	signature:(int fd1, int fd2)
+Elf32_Rel	code/link/elfstructs.c	/^} Elf32_Rel; $/;"	t	language:C	typeref:struct:__anon3	file:
+Elf_Symbol	code/link/elfstructs.c	/^} Elf_Symbol; $/;"	t	language:C	typeref:struct:__anon2	file:
+Execve	code/src/csapp.c	/^void Execve(const char *filename, char *const argv[], char *const envp[]) $/;"	f	language:C	signature:(const char *filename, char *const argv[], char *const envp[])
+Execve	common/csapp.c	/^void Execve(const char *filename, char *const argv[], char *const envp[])$/;"	f	language:C	signature:(const char *filename, char *const argv[], char *const envp[])
+FTRP	code/vm/malloc/mm.c	40;"	d	language:C	file:
+Fclose	code/src/csapp.c	/^void Fclose(FILE *fp) $/;"	f	language:C	signature:(FILE *fp)
+Fclose	common/csapp.c	/^void Fclose(FILE *fp)$/;"	f	language:C	signature:(FILE *fp)
+Fdopen	code/src/csapp.c	/^FILE *Fdopen(int fd, const char *type) $/;"	f	language:C	signature:(int fd, const char *type)
+Fdopen	common/csapp.c	/^FILE *Fdopen(int fd, const char *type)$/;"	f	language:C	signature:(int fd, const char *type)
+Fgets	code/src/csapp.c	/^char *Fgets(char *ptr, int n, FILE *stream) $/;"	f	language:C	signature:(char *ptr, int n, FILE *stream)
+Fgets	common/csapp.c	/^char *Fgets(char *ptr, int n, FILE *stream)$/;"	f	language:C	signature:(char *ptr, int n, FILE *stream)
+Fopen	code/src/csapp.c	/^FILE *Fopen(const char *filename, const char *mode) $/;"	f	language:C	signature:(const char *filename, const char *mode)
+Fopen	common/csapp.c	/^FILE *Fopen(const char *filename, const char *mode)$/;"	f	language:C	signature:(const char *filename, const char *mode)
+Fork	code/ecf/rfork.c	/^pid_t Fork(void)$/;"	f	language:C	signature:(void)
+Fork	code/src/csapp.c	/^pid_t Fork(void) $/;"	f	language:C	signature:(void)
+Fork	common/csapp.c	/^pid_t Fork(void)$/;"	f	language:C	signature:(void)
+Fputs	code/src/csapp.c	/^void Fputs(const char *ptr, FILE *stream) $/;"	f	language:C	signature:(const char *ptr, FILE *stream)
+Fputs	common/csapp.c	/^void Fputs(const char *ptr, FILE *stream)$/;"	f	language:C	signature:(const char *ptr, FILE *stream)
+Fread	code/src/csapp.c	/^size_t Fread(void *ptr, size_t size, size_t nmemb, FILE *stream) $/;"	f	language:C	signature:(void *ptr, size_t size, size_t nmemb, FILE *stream)
+Fread	common/csapp.c	/^size_t Fread(void *ptr, size_t size, size_t nmemb, FILE *stream)$/;"	f	language:C	signature:(void *ptr, size_t size, size_t nmemb, FILE *stream)
+Free	code/src/csapp.c	/^void Free(void *ptr) $/;"	f	language:C	signature:(void *ptr)
+Free	common/csapp.c	/^void Free(void *ptr)$/;"	f	language:C	signature:(void *ptr)
+Fstat	code/src/csapp.c	/^void Fstat(int fd, struct stat *buf) $/;"	f	language:C	signature:(int fd, struct stat *buf)
+Fstat	common/csapp.c	/^void Fstat(int fd, struct stat *buf)$/;"	f	language:C	signature:(int fd, struct stat *buf)
+Fwrite	code/src/csapp.c	/^void Fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream) $/;"	f	language:C	signature:(const void *ptr, size_t size, size_t nmemb, FILE *stream)
+Fwrite	common/csapp.c	/^void Fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream)$/;"	f	language:C	signature:(const void *ptr, size_t size, size_t nmemb, FILE *stream)
+GET	code/vm/malloc/mm.c	31;"	d	language:C	file:
+GET_ALLOC	code/vm/malloc/mm.c	36;"	d	language:C	file:
+GET_SIZE	code/vm/malloc/mm.c	35;"	d	language:C	file:
+Gethostbyaddr	code/src/csapp.c	/^struct hostent *Gethostbyaddr(const char *addr, int len, int type) $/;"	f	language:C	signature:(const char *addr, int len, int type)
+Gethostbyaddr	common/csapp.c	/^struct hostent *Gethostbyaddr(const char *addr, int len, int type)$/;"	f	language:C	signature:(const char *addr, int len, int type)
+Gethostbyname	code/src/csapp.c	/^struct hostent *Gethostbyname(const char *name) $/;"	f	language:C	signature:(const char *name)
+Gethostbyname	common/csapp.c	/^struct hostent *Gethostbyname(const char *name)$/;"	f	language:C	signature:(const char *name)
+Getpgrp	code/src/csapp.c	/^pid_t Getpgrp(void) {$/;"	f	language:C	signature:(void)
+Getpgrp	common/csapp.c	/^pid_t Getpgrp(void) {$/;"	f	language:C	signature:(void)
+HDRP	code/vm/malloc/mm.c	39;"	d	language:C	file:
+Kill	code/src/csapp.c	/^void Kill(pid_t pid, int signum) $/;"	f	language:C	signature:(pid_t pid, int signum)
+Kill	common/csapp.c	/^void Kill(pid_t pid, int signum)$/;"	f	language:C	signature:(pid_t pid, int signum)
+LISTENQ	code/include/csapp.h	57;"	d	language:C++
+LISTENQ	common/csapp.h	57;"	d	language:C++
+Listen	code/src/csapp.c	/^void Listen(int s, int backlog) $/;"	f	language:C	signature:(int s, int backlog)
+Listen	common/csapp.c	/^void Listen(int s, int backlog)$/;"	f	language:C	signature:(int s, int backlog)
+Lseek	code/src/csapp.c	/^off_t Lseek(int fildes, off_t offset, int whence) $/;"	f	language:C	signature:(int fildes, off_t offset, int whence)
+Lseek	common/csapp.c	/^off_t Lseek(int fildes, off_t offset, int whence)$/;"	f	language:C	signature:(int fildes, off_t offset, int whence)
+MAX	code/vm/malloc/mm.c	25;"	d	language:C	file:
+MAXARGS	code/ecf/shellex.c	3;"	d	language:C	file:
+MAXBUF	code/include/csapp.h	56;"	d	language:C++
+MAXBUF	common/csapp.h	56;"	d	language:C++
+MAXBYTES	code/mem/mountain/mountain.c	9;"	d	language:C	file:
+MAXELEMS	code/mem/mountain/mountain.c	11;"	d	language:C	file:
+MAXLINE	code/include/csapp.h	55;"	d	language:C++
+MAXLINE	common/csapp.h	55;"	d	language:C++
+MAXSTR	code/conc/ctime_ts.c	5;"	d	language:C	file:
+MAXSTRIDE	code/mem/mountain/mountain.c	10;"	d	language:C	file:
+MAXTHREADS	code/conc/psum.c	6;"	d	language:C	file:
+MAX_SLEEP	code/ecf/rfork.c	13;"	d	language:C	file:
+MINBYTES	code/mem/mountain/mountain.c	8;"	d	language:C	file:
+Malloc	code/src/csapp.c	/^void *Malloc(size_t size) $/;"	f	language:C	signature:(size_t size)
+Malloc	common/csapp.c	/^void *Malloc(size_t size)$/;"	f	language:C	signature:(size_t size)
+Mmap	code/src/csapp.c	/^void *Mmap(void *addr, size_t len, int prot, int flags, int fd, off_t offset) $/;"	f	language:C	signature:(void *addr, size_t len, int prot, int flags, int fd, off_t offset)
+Mmap	common/csapp.c	/^void *Mmap(void *addr, size_t len, int prot, int flags, int fd, off_t offset)$/;"	f	language:C	signature:(void *addr, size_t len, int prot, int flags, int fd, off_t offset)
+Munmap	code/src/csapp.c	/^void Munmap(void *start, size_t length) $/;"	f	language:C	signature:(void *start, size_t length)
+Munmap	common/csapp.c	/^void Munmap(void *start, size_t length)$/;"	f	language:C	signature:(void *start, size_t length)
+N	code/conc/norace.c	6;"	d	language:C	file:
+N	code/conc/race.c	6;"	d	language:C	file:
+N	code/conc/sharing.c	3;"	d	language:C	file:
+N	code/ecf/waitpid1.c	3;"	d	language:C	file:
+N	code/ecf/waitpid2.c	3;"	d	language:C	file:
+N	sample/ch12/sharing.c	15;"	d	language:C	file:
+NEXT_BLKP	code/vm/malloc/mm.c	43;"	d	language:C	file:
+NEXT_FITx	code/vm/malloc/mm.c	17;"	d	language:C	file:
+NTHREADS	code/conc/echoservert_pre.c	7;"	d	language:C	file:
+Open	code/src/csapp.c	/^int Open(const char *pathname, int flags, mode_t mode) $/;"	f	language:C	signature:(const char *pathname, int flags, mode_t mode)
+Open	common/csapp.c	/^int Open(const char *pathname, int flags, mode_t mode)$/;"	f	language:C	signature:(const char *pathname, int flags, mode_t mode)
+Open_clientfd	code/src/csapp.c	/^int Open_clientfd(char *hostname, int port) $/;"	f	language:C	signature:(char *hostname, int port)
+Open_clientfd	common/csapp.c	/^int Open_clientfd(char *hostname, int port)$/;"	f	language:C	signature:(char *hostname, int port)
+Open_listenfd	code/src/csapp.c	/^int Open_listenfd(int port) $/;"	f	language:C	signature:(int port)
+Open_listenfd	common/csapp.c	/^int Open_listenfd(int port)$/;"	f	language:C	signature:(int port)
+P	code/src/csapp.c	/^void P(sem_t *sem) $/;"	f	language:C	signature:(sem_t *sem)
+P	common/csapp.c	/^void P(sem_t *sem)$/;"	f	language:C	signature:(sem_t *sem)
+PACK	code/vm/malloc/mm.c	28;"	d	language:C	file:
+PREV_BLKP	code/vm/malloc/mm.c	44;"	d	language:C	file:
+PUT	code/vm/malloc/mm.c	32;"	d	language:C	file:
+Pause	code/src/csapp.c	/^void Pause() $/;"	f	language:C
+Pause	common/csapp.c	/^void Pause()$/;"	f	language:C
+Pthread_cancel	code/src/csapp.c	/^void Pthread_cancel(pthread_t tid) {$/;"	f	language:C	signature:(pthread_t tid)
+Pthread_cancel	common/csapp.c	/^void Pthread_cancel(pthread_t tid) {$/;"	f	language:C	signature:(pthread_t tid)
+Pthread_create	code/src/csapp.c	/^void Pthread_create(pthread_t *tidp, pthread_attr_t *attrp, $/;"	f	language:C	signature:(pthread_t *tidp, pthread_attr_t *attrp, void * (*routine)(void *), void *argp)
+Pthread_create	common/csapp.c	/^void Pthread_create(pthread_t *tidp, pthread_attr_t *attrp,$/;"	f	language:C	signature:(pthread_t *tidp, pthread_attr_t *attrp, void * (*routine)(void *), void *argp)
+Pthread_detach	code/src/csapp.c	/^void Pthread_detach(pthread_t tid) {$/;"	f	language:C	signature:(pthread_t tid)
+Pthread_detach	common/csapp.c	/^void Pthread_detach(pthread_t tid) {$/;"	f	language:C	signature:(pthread_t tid)
+Pthread_exit	code/src/csapp.c	/^void Pthread_exit(void *retval) {$/;"	f	language:C	signature:(void *retval)
+Pthread_exit	common/csapp.c	/^void Pthread_exit(void *retval) {$/;"	f	language:C	signature:(void *retval)
+Pthread_join	code/src/csapp.c	/^void Pthread_join(pthread_t tid, void **thread_return) {$/;"	f	language:C	signature:(pthread_t tid, void **thread_return)
+Pthread_join	common/csapp.c	/^void Pthread_join(pthread_t tid, void **thread_return) {$/;"	f	language:C	signature:(pthread_t tid, void **thread_return)
+Pthread_once	code/src/csapp.c	/^void Pthread_once(pthread_once_t *once_control, void (*init_function)()) {$/;"	f	language:C	signature:(pthread_once_t *once_control, void (*init_function)())
+Pthread_once	common/csapp.c	/^void Pthread_once(pthread_once_t *once_control, void (*init_function)()) {$/;"	f	language:C	signature:(pthread_once_t *once_control, void (*init_function)())
+Pthread_self	code/src/csapp.c	/^pthread_t Pthread_self(void) {$/;"	f	language:C	signature:(void)
+Pthread_self	common/csapp.c	/^pthread_t Pthread_self(void) {$/;"	f	language:C	signature:(void)
+RIO_BUFSIZE	code/include/csapp.h	41;"	d	language:C++
+RIO_BUFSIZE	common/csapp.h	41;"	d	language:C++
+Read	code/src/csapp.c	/^ssize_t Read(int fd, void *buf, size_t count) $/;"	f	language:C	signature:(int fd, void *buf, size_t count)
+Read	common/csapp.c	/^ssize_t Read(int fd, void *buf, size_t count)$/;"	f	language:C	signature:(int fd, void *buf, size_t count)
+Realloc	code/src/csapp.c	/^void *Realloc(void *ptr, size_t size) $/;"	f	language:C	signature:(void *ptr, size_t size)
+Realloc	common/csapp.c	/^void *Realloc(void *ptr, size_t size)$/;"	f	language:C	signature:(void *ptr, size_t size)
+Rio_readinitb	code/src/csapp.c	/^void Rio_readinitb(rio_t *rp, int fd)$/;"	f	language:C	signature:(rio_t *rp, int fd)
+Rio_readinitb	common/csapp.c	/^void Rio_readinitb(rio_t *rp, int fd)$/;"	f	language:C	signature:(rio_t *rp, int fd)
+Rio_readlineb	code/src/csapp.c	/^ssize_t Rio_readlineb(rio_t *rp, void *usrbuf, size_t maxlen) $/;"	f	language:C	signature:(rio_t *rp, void *usrbuf, size_t maxlen)
+Rio_readlineb	common/csapp.c	/^ssize_t Rio_readlineb(rio_t *rp, void *usrbuf, size_t maxlen)$/;"	f	language:C	signature:(rio_t *rp, void *usrbuf, size_t maxlen)
+Rio_readn	code/src/csapp.c	/^ssize_t Rio_readn(int fd, void *ptr, size_t nbytes) $/;"	f	language:C	signature:(int fd, void *ptr, size_t nbytes)
+Rio_readn	common/csapp.c	/^ssize_t Rio_readn(int fd, void *ptr, size_t nbytes)$/;"	f	language:C	signature:(int fd, void *ptr, size_t nbytes)
+Rio_readnb	code/src/csapp.c	/^ssize_t Rio_readnb(rio_t *rp, void *usrbuf, size_t n) $/;"	f	language:C	signature:(rio_t *rp, void *usrbuf, size_t n)
+Rio_readnb	common/csapp.c	/^ssize_t Rio_readnb(rio_t *rp, void *usrbuf, size_t n)$/;"	f	language:C	signature:(rio_t *rp, void *usrbuf, size_t n)
+Rio_writen	code/src/csapp.c	/^void Rio_writen(int fd, void *usrbuf, size_t n) $/;"	f	language:C	signature:(int fd, void *usrbuf, size_t n)
+Rio_writen	common/csapp.c	/^void Rio_writen(int fd, void *usrbuf, size_t n)$/;"	f	language:C	signature:(int fd, void *usrbuf, size_t n)
+SA	code/include/csapp.h	/^typedef struct sockaddr SA;$/;"	t	language:C++	typeref:struct:sockaddr
+SA	common/csapp.h	/^typedef struct sockaddr SA;$/;"	t	language:C++	typeref:struct:sockaddr
+SBUFSIZE	code/conc/echoservert_pre.c	8;"	d	language:C	file:
+Select	code/src/csapp.c	/^int Select(int  n, fd_set *readfds, fd_set *writefds,$/;"	f	language:C	signature:(int n, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struct timeval *timeout)
+Select	common/csapp.c	/^int Select(int  n, fd_set *readfds, fd_set *writefds,$/;"	f	language:C	signature:(int n, fd_set *readfds, fd_set *writefds, fd_set *exceptfds, struct timeval *timeout)
+Sem_init	code/src/csapp.c	/^void Sem_init(sem_t *sem, int pshared, unsigned int value) $/;"	f	language:C	signature:(sem_t *sem, int pshared, unsigned int value)
+Sem_init	common/csapp.c	/^void Sem_init(sem_t *sem, int pshared, unsigned int value)$/;"	f	language:C	signature:(sem_t *sem, int pshared, unsigned int value)
+Setpgid	code/src/csapp.c	/^void Setpgid(pid_t pid, pid_t pgid) {$/;"	f	language:C	signature:(pid_t pid, pid_t pgid)
+Setpgid	common/csapp.c	/^void Setpgid(pid_t pid, pid_t pgid) {$/;"	f	language:C	signature:(pid_t pid, pid_t pgid)
+Setsockopt	code/src/csapp.c	/^void Setsockopt(int s, int level, int optname, const void *optval, int optlen) $/;"	f	language:C	signature:(int s, int level, int optname, const void *optval, int optlen)
+Setsockopt	common/csapp.c	/^void Setsockopt(int s, int level, int optname, const void *optval, int optlen)$/;"	f	language:C	signature:(int s, int level, int optname, const void *optval, int optlen)
+Sigaddset	code/src/csapp.c	/^void Sigaddset(sigset_t *set, int signum)$/;"	f	language:C	signature:(sigset_t *set, int signum)
+Sigaddset	common/csapp.c	/^void Sigaddset(sigset_t *set, int signum)$/;"	f	language:C	signature:(sigset_t *set, int signum)
+Sigdelset	code/src/csapp.c	/^void Sigdelset(sigset_t *set, int signum)$/;"	f	language:C	signature:(sigset_t *set, int signum)
+Sigdelset	common/csapp.c	/^void Sigdelset(sigset_t *set, int signum)$/;"	f	language:C	signature:(sigset_t *set, int signum)
+Sigemptyset	code/src/csapp.c	/^void Sigemptyset(sigset_t *set)$/;"	f	language:C	signature:(sigset_t *set)
+Sigemptyset	common/csapp.c	/^void Sigemptyset(sigset_t *set)$/;"	f	language:C	signature:(sigset_t *set)
+Sigfillset	code/src/csapp.c	/^void Sigfillset(sigset_t *set)$/;"	f	language:C	signature:(sigset_t *set)
+Sigfillset	common/csapp.c	/^void Sigfillset(sigset_t *set)$/;"	f	language:C	signature:(sigset_t *set)
+Sigismember	code/src/csapp.c	/^int Sigismember(const sigset_t *set, int signum)$/;"	f	language:C	signature:(const sigset_t *set, int signum)
+Sigismember	common/csapp.c	/^int Sigismember(const sigset_t *set, int signum)$/;"	f	language:C	signature:(const sigset_t *set, int signum)
+Signal	code/src/csapp.c	/^handler_t *Signal(int signum, handler_t *handler) $/;"	f	language:C	signature:(int signum, handler_t *handler)
+Signal	common/csapp.c	/^handler_t *Signal(int signum, handler_t *handler)$/;"	f	language:C	signature:(int signum, handler_t *handler)
+Sigprocmask	code/src/csapp.c	/^void Sigprocmask(int how, const sigset_t *set, sigset_t *oldset)$/;"	f	language:C	signature:(int how, const sigset_t *set, sigset_t *oldset)
+Sigprocmask	common/csapp.c	/^void Sigprocmask(int how, const sigset_t *set, sigset_t *oldset)$/;"	f	language:C	signature:(int how, const sigset_t *set, sigset_t *oldset)
+Sleep	code/src/csapp.c	/^unsigned int Sleep(unsigned int secs) $/;"	f	language:C	signature:(unsigned int secs)
+Sleep	common/csapp.c	/^unsigned int Sleep(unsigned int secs)$/;"	f	language:C	signature:(unsigned int secs)
+Socket	code/src/csapp.c	/^int Socket(int domain, int type, int protocol) $/;"	f	language:C	signature:(int domain, int type, int protocol)
+Socket	common/csapp.c	/^int Socket(int domain, int type, int protocol)$/;"	f	language:C	signature:(int domain, int type, int protocol)
+Stat	code/src/csapp.c	/^void Stat(const char *filename, struct stat *buf) $/;"	f	language:C	signature:(const char *filename, struct stat *buf)
+Stat	common/csapp.c	/^void Stat(const char *filename, struct stat *buf)$/;"	f	language:C	signature:(const char *filename, struct stat *buf)
+V	code/src/csapp.c	/^void V(sem_t *sem) $/;"	f	language:C	signature:(sem_t *sem)
+V	common/csapp.c	/^void V(sem_t *sem)$/;"	f	language:C	signature:(sem_t *sem)
+WSIZE	code/vm/malloc/mm.c	21;"	d	language:C	file:
+Wait	code/src/csapp.c	/^pid_t Wait(int *status) $/;"	f	language:C	signature:(int *status)
+Wait	common/csapp.c	/^pid_t Wait(int *status)$/;"	f	language:C	signature:(int *status)
+Waitpid	code/src/csapp.c	/^pid_t Waitpid(pid_t pid, int *iptr, int options) $/;"	f	language:C	signature:(pid_t pid, int *iptr, int options)
+Waitpid	common/csapp.c	/^pid_t Waitpid(pid_t pid, int *iptr, int options)$/;"	f	language:C	signature:(pid_t pid, int *iptr, int options)
+Write	code/src/csapp.c	/^ssize_t Write(int fd, const void *buf, size_t count) $/;"	f	language:C	signature:(int fd, const void *buf, size_t count)
+Write	common/csapp.c	/^ssize_t Write(int fd, const void *buf, size_t count)$/;"	f	language:C	signature:(int fd, const void *buf, size_t count)
+__CSAPP_H__	code/include/csapp.h	3;"	d	language:C++
+__CSAPP_H__	common/csapp.h	3;"	d	language:C++
+__SBUF_H__	code/conc/sbuf.h	2;"	d	language:C++
+add_client	code/conc/echoservers.c	/^void add_client(int connfd, pool *p) $/;"	f	language:C	signature:(int connfd, pool *p)
+addjob	code/ecf/procmask1.c	/^void addjob(int pid)$/;"	f	language:C	signature:(int pid)
+addjob	code/ecf/procmask2.c	/^void addjob(int pid)$/;"	f	language:C	signature:(int pid)
+addvec	code/link/addvec.c	/^void addvec(int *x, int *y,$/;"	f	language:C	signature:(int *x, int *y, int *z, int n)
+app_error	code/src/csapp.c	/^void app_error(char *msg) \/* application error *\/$/;"	f	language:C	signature:(char *msg)
+app_error	common/csapp.c	/^void app_error(char *msg) \/* application error *\/$/;"	f	language:C	signature:(char *msg)
+bar	code/ecf/setjmp.c	/^void bar(void) $/;"	f	language:C	signature:(void)
+binding	code/link/elfstructs.c	/^	 binding:4;  \/* local or global (4 bits) *\/ $/;"	m	language:C	struct:__anon2	file:
+buf	code/conc/sbuf.h	/^    int *buf;          \/* Buffer array *\/         $/;"	m	language:C++	struct:__anon7
+buf	code/ecf/restart.c	/^sigjmp_buf buf;$/;"	v	language:C
+buf	code/ecf/setjmp.c	/^jmp_buf buf;$/;"	v	language:C
+buf	code/link/main.c	/^int buf[2] = {1, 2};$/;"	v	language:C
+bufp0	code/link/swap.c	/^int *bufp0 = &buf[0];$/;"	v	language:C
+bufp1	code/link/swap.c	/^int *bufp1;$/;"	v	language:C
+builtin_command	code/ecf/shellex.c	/^int builtin_command(char **argv) $/;"	f	language:C	signature:(char **argv)
+byte_cnt	code/conc/echo_cnt.c	/^static int byte_cnt;  \/* byte counter *\/$/;"	v	language:C	file:
+byte_cnt	code/conc/echoservers.c	/^int byte_cnt = 0; \/* counts total bytes received by server *\/$/;"	v	language:C
+byte_pointer	code/data/show-bytes.c	/^typedef unsigned char *byte_pointer;$/;"	t	language:C	file:
+check_clients	code/conc/echoservers.c	/^void check_clients(pool *p) $/;"	f	language:C	signature:(pool *p)
+checkblock	code/vm/malloc/mm.c	/^static void checkblock(void *bp) $/;"	f	language:C	file:	signature:(void *bp)
+checkheap	code/vm/malloc/mm.c	/^void checkheap(int verbose) $/;"	f	language:C	signature:(int verbose)
+checkresult	code/mem/matmult/mm.c	/^void checkresult(array c, int n)$/;"	f	language:C	signature:(array c, int n)
+clienterror	code/netp/tiny/tiny.c	/^void clienterror(int fd, char *cause, char *errnum, $/;"	f	language:C	signature:(int fd, char *cause, char *errnum, char *shortmsg, char *longmsg)
+clientfd	code/conc/echoservers.c	/^    int clientfd[FD_SETSIZE];    \/* set of active descriptors *\/$/;"	m	language:C	struct:__anon6	file:
+clientrio	code/conc/echoservers.c	/^    rio_t clientrio[FD_SETSIZE]; \/* set of active read buffers *\/$/;"	m	language:C	struct:__anon6	file:
+cnt	code/conc/badcnt.c	/^volatile int cnt = 0; \/* Counter *\/$/;"	v	language:C
+cnt	sample/ch12/badcnt.c	/^volatile int cnt  = 0;          \/*Counter*\/$/;"	v	language:C
+cnt	sample/ch12/goodcnt.c	/^volatile int cnt  = 0;          \/*Counter*\/$/;"	v	language:C
+coalesce	code/vm/malloc/mm.c	/^static void *coalesce(void *bp) $/;"	f	language:C	file:	signature:(void *bp)
+command	code/conc/select.c	/^void command(void) {$/;"	f	language:C	signature:(void)
+counter	code/ecf/counterprob.c	/^int counter = 0;$/;"	v	language:C
+counter	code/ecf/forkprob7.c	/^int counter = 1;$/;"	v	language:C
+counter	code/ecf/signalprob0.c	/^int counter = 2;$/;"	v	language:C
+csapp_c	sample/ch12/Makefile	/^csapp_c = ..\/..\/common\/csapp.c$/;"	m	language:Make
+csapp_h	sample/ch12/Makefile	/^csapp_h = ..\/..\/common\/csapp.h$/;"	m	language:Make
+ctime_ts	code/conc/ctime_ts.c	/^char *ctime_ts(const time_t *timep, char *privatep)$/;"	f	language:C	signature:(const time_t *timep, char *privatep)
+data	code/mem/mountain/mountain.c	/^double data[MAXELEMS];      \/* The global array we'll be traversing *\/$/;"	v	language:C
+deletejob	code/ecf/procmask1.c	/^void deletejob(int pid)$/;"	f	language:C	signature:(int pid)
+deletejob	code/ecf/procmask2.c	/^void deletejob(int pid)$/;"	f	language:C	signature:(int pid)
+dns_error	code/src/csapp.c	/^void dns_error(char *msg) \/* dns-style error *\/$/;"	f	language:C	signature:(char *msg)
+dns_error	common/csapp.c	/^void dns_error(char *msg) \/* dns-style error *\/$/;"	f	language:C	signature:(char *msg)
+doit	code/ecf/forkprob4.c	/^void doit() $/;"	f	language:C
+doit	code/ecf/forkprob5.c	/^void doit() $/;"	f	language:C
+doit	code/ecf/forkprob6.c	/^void doit() $/;"	f	language:C
+doit	code/netp/tiny/tiny.c	/^void doit(int fd) $/;"	f	language:C	signature:(int fd)
+doit	sample/ch11/tiny/tiny.c	/^void doit(int fd)$/;"	f	language:C	signature:(int fd)
+echo	code/netp/echo.c	/^void echo(int connfd) $/;"	f	language:C	signature:(int connfd)
+echo	sample/ch11/echo.c	/^void echo(int connfd)$/;"	f	language:C	signature:(int connfd)
+echo_cnt	code/conc/echo_cnt.c	/^void echo_cnt(int connfd) $/;"	f	language:C	signature:(int connfd)
+email1	code/vm/mm.h	/^    char *name1, *email1;$/;"	m	language:C++	struct:__anon5
+email2	code/vm/mm.h	/^    char *name2, *email2;$/;"	m	language:C++	struct:__anon5
+end	code/ecf/forkprob2.c	/^void end(void) $/;"	f	language:C	signature:(void)
+error1	code/ecf/setjmp.c	/^int error1 = 0; $/;"	v	language:C
+error2	code/ecf/setjmp.c	/^int error2 = 1;$/;"	v	language:C
+eval	code/ecf/shellex.c	/^void eval(char *cmdline) $/;"	f	language:C	signature:(char *cmdline)
+extend_heap	code/vm/malloc/mm.c	/^static void *extend_heap(size_t words) $/;"	f	language:C	file:	signature:(size_t words)
+find_fit	code/vm/malloc/mm.c	/^static void *find_fit(size_t asize)$/;"	f	language:C	file:	signature:(size_t asize)
+float_eg	code/data/show-bytes.c	/^void float_eg() {$/;"	f	language:C
+foo	code/ecf/forkprob8.c	/^void foo(int n) $/;"	f	language:C	signature:(int n)
+foo	code/ecf/setjmp.c	/^void foo(void) $/;"	f	language:C	signature:(void)
+front	code/conc/sbuf.h	/^    int front;         \/* buf[(front+1)%n] is first item *\/$/;"	m	language:C++	struct:__anon7
+ga	code/mem/matmult/mm.c	/^array ga, gb, gc; $/;"	v	language:C
+gb	code/mem/matmult/mm.c	/^array ga, gb, gc; $/;"	v	language:C
+gc	code/mem/matmult/mm.c	/^array ga, gb, gc; $/;"	v	language:C
+get_filetype	code/netp/tiny/tiny.c	/^void get_filetype(char *filename, char *filetype) $/;"	f	language:C	signature:(char *filename, char *filetype)
+handler	code/ecf/alarm.c	/^void handler(int sig) $/;"	f	language:C	signature:(int sig)
+handler	code/ecf/counterprob.c	/^void handler(int sig) $/;"	f	language:C	signature:(int sig)
+handler	code/ecf/procmask1.c	/^void handler(int sig)$/;"	f	language:C	signature:(int sig)
+handler	code/ecf/procmask2.c	/^void handler(int sig)$/;"	f	language:C	signature:(int sig)
+handler	code/ecf/restart.c	/^void handler(int sig) $/;"	f	language:C	signature:(int sig)
+handler	code/ecf/sigint1.c	/^void handler(int sig) \/* SIGINT handler *\/   \/\/line:ecf:sigint1:beginhandler$/;"	f	language:C	signature:(int sig)
+handler1	code/ecf/signal1.c	/^void handler1(int sig) $/;"	f	language:C	signature:(int sig)
+handler1	code/ecf/signalprob0.c	/^void handler1(int sig) {$/;"	f	language:C	signature:(int sig)
+handler2	code/ecf/signal2.c	/^void handler2(int sig) $/;"	f	language:C	signature:(int sig)
+handler2	code/ecf/signal3.c	/^void handler2(int sig) $/;"	f	language:C	signature:(int sig)
+handler2	code/ecf/signal4.c	/^void handler2(int sig) $/;"	f	language:C	signature:(int sig)
+handler_t	code/include/csapp.h	/^typedef void handler_t(int);$/;"	t	language:C++
+handler_t	common/csapp.h	/^typedef void handler_t(int);$/;"	t	language:C++
+heap_listp	code/vm/malloc/mm.c	/^static char *heap_listp = 0;  \/* Pointer to first block *\/  $/;"	v	language:C	file:
+ijk	code/mem/matmult/mm.c	/^void ijk(array A, array B, array C, int n) $/;"	f	language:C	signature:(array A, array B, array C, int n)
+ikj	code/mem/matmult/mm.c	/^void ikj(array A, array B, array C, int n) $/;"	f	language:C	signature:(array A, array B, array C, int n)
+init	code/mem/matmult/mm.c	/^void init(array a, array b, int n) $/;"	f	language:C	signature:(array a, array b, int n)
+init_ctime_ts	code/conc/ctime_ts.c	/^static void init_ctime_ts(void)$/;"	f	language:C	file:	signature:(void)
+init_data	code/mem/mountain/mountain.c	/^void init_data(double *data, int n)$/;"	f	language:C	signature:(double *data, int n)
+init_echo_cnt	code/conc/echo_cnt.c	/^static void init_echo_cnt(void)$/;"	f	language:C	file:	signature:(void)
+init_pool	code/conc/echoservers.c	/^void init_pool(int listenfd, pool *p) $/;"	f	language:C	signature:(int listenfd, pool *p)
+initjobs	code/ecf/procmask1.c	/^void initjobs()$/;"	f	language:C
+initjobs	code/ecf/procmask2.c	/^void initjobs()$/;"	f	language:C
+items	code/conc/sbuf.h	/^    sem_t items;       \/* Counts available items *\/$/;"	m	language:C++	struct:__anon7
+jik	code/mem/matmult/mm.c	/^void jik(array A, array B, array C, int n) $/;"	f	language:C	signature:(array A, array B, array C, int n)
+jki	code/mem/matmult/mm.c	/^void jki(array A, array B, array C, int n)$/;"	f	language:C	signature:(array A, array B, array C, int n)
+kij	code/mem/matmult/mm.c	/^void kij(array A, array B, array C, int n)$/;"	f	language:C	signature:(array A, array B, array C, int n)
+kji	code/mem/matmult/mm.c	/^void kji(array A, array B, array C, int n)$/;"	f	language:C	signature:(array A, array B, array C, int n)
+main	code/conc/badcnt.c	/^int main(int argc, char **argv) $/;"	f	language:C	signature:(int argc, char **argv)
+main	code/conc/ctime_ts.c	/^int main()$/;"	f	language:C
+main	code/conc/echoserverp.c	/^int main(int argc, char **argv) $/;"	f	language:C	signature:(int argc, char **argv)
+main	code/conc/echoservers.c	/^int main(int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+main	code/conc/echoservert.c	/^int main(int argc, char **argv) $/;"	f	language:C	signature:(int argc, char **argv)
+main	code/conc/echoservert_pre.c	/^int main(int argc, char **argv) $/;"	f	language:C	signature:(int argc, char **argv)
+main	code/conc/hello.c	/^int main()                                    \/\/line:conc:hello:main$/;"	f	language:C
+main	code/conc/hellobug.c	/^int main() $/;"	f	language:C
+main	code/conc/norace.c	/^int main() $/;"	f	language:C
+main	code/conc/psum.c	/^int main(int argc, char **argv) $/;"	f	language:C	signature:(int argc, char **argv)
+main	code/conc/race.c	/^int main() $/;"	f	language:C
+main	code/conc/rand.c	/^int main()$/;"	f	language:C
+main	code/conc/rand_r.c	/^int main()$/;"	f	language:C
+main	code/conc/select.c	/^int main(int argc, char **argv) $/;"	f	language:C	signature:(int argc, char **argv)
+main	code/conc/sharing.c	/^int main() $/;"	f	language:C
+main	code/conc/tfgets-main.c	/^int main() $/;"	f	language:C
+main	code/data/show-bytes.c	/^int main(int argc, char *argv[])$/;"	f	language:C	signature:(int argc, char *argv[])
+main	code/ecf/alarm.c	/^int main() $/;"	f	language:C
+main	code/ecf/counterprob.c	/^int main() $/;"	f	language:C
+main	code/ecf/fork.c	/^int main() $/;"	f	language:C
+main	code/ecf/forkprob0.c	/^int main() $/;"	f	language:C
+main	code/ecf/forkprob1.c	/^int main() $/;"	f	language:C
+main	code/ecf/forkprob2.c	/^int main() $/;"	f	language:C
+main	code/ecf/forkprob3.c	/^int main() $/;"	f	language:C
+main	code/ecf/forkprob4.c	/^int main() $/;"	f	language:C
+main	code/ecf/forkprob5.c	/^int main() $/;"	f	language:C
+main	code/ecf/forkprob6.c	/^int main() $/;"	f	language:C
+main	code/ecf/forkprob7.c	/^int main() $/;"	f	language:C
+main	code/ecf/forkprob8.c	/^int main(int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+main	code/ecf/kill.c	/^int main() $/;"	f	language:C
+main	code/ecf/procmask1.c	/^int main(int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+main	code/ecf/procmask2.c	/^int main(int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+main	code/ecf/restart.c	/^int main() $/;"	f	language:C
+main	code/ecf/setjmp.c	/^int main() $/;"	f	language:C
+main	code/ecf/shellex.c	/^int main() $/;"	f	language:C
+main	code/ecf/sigint1.c	/^int main() $/;"	f	language:C
+main	code/ecf/signal1.c	/^int main() $/;"	f	language:C
+main	code/ecf/signal2.c	/^int main() $/;"	f	language:C
+main	code/ecf/signal3.c	/^int main() {$/;"	f	language:C
+main	code/ecf/signal4.c	/^int main() $/;"	f	language:C
+main	code/ecf/signalprob0.c	/^int main() {$/;"	f	language:C
+main	code/ecf/waitpid1.c	/^int main() $/;"	f	language:C
+main	code/ecf/waitpid2.c	/^int main() $/;"	f	language:C
+main	code/ecf/waitprob0.c	/^int main() $/;"	f	language:C
+main	code/ecf/waitprob1.c	/^int main() $/;"	f	language:C
+main	code/ecf/waitprob3.c	/^int main() $/;"	f	language:C
+main	code/intro/hello.c	/^int main() $/;"	f	language:C
+main	code/io/cpfile.c	/^int main(int argc, char **argv) $/;"	f	language:C	signature:(int argc, char **argv)
+main	code/io/cpstdin.c	/^int main(void) $/;"	f	language:C	signature:(void)
+main	code/io/statcheck.c	/^int main (int argc, char **argv) $/;"	f	language:C	signature:(int argc, char **argv)
+main	code/link/dll.c	/^int main() $/;"	f	language:C
+main	code/link/main.c	/^int main() $/;"	f	language:C
+main	code/link/main2.c	/^int main() $/;"	f	language:C
+main	code/mem/matmult/mm.c	/^int main()$/;"	f	language:C
+main	code/mem/mountain/mountain.c	/^int main()$/;"	f	language:C
+main	code/netp/echoclient.c	/^int main(int argc, char **argv) $/;"	f	language:C	signature:(int argc, char **argv)
+main	code/netp/echoserveri.c	/^int main(int argc, char **argv) $/;"	f	language:C	signature:(int argc, char **argv)
+main	code/netp/hostinfo.c	/^int main(int argc, char **argv) $/;"	f	language:C	signature:(int argc, char **argv)
+main	code/netp/tiny/cgi-bin/adder.c	/^int main(void) {$/;"	f	language:C	signature:(void)
+main	code/netp/tiny/tiny.c	/^int main(int argc, char **argv) $/;"	f	language:C	signature:(int argc, char **argv)
+main	sample/ch11/tiny/tiny.c	/^int main(int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+main	sample/ch12/badcnt.c	/^int main(int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+main	sample/ch12/echoserverp.c	/^int main(int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+main	sample/ch12/goodcnt.c	/^int main(int argc, char **argv)$/;"	f	language:C	signature:(int argc, char **argv)
+main	sample/ch12/hello.c	/^int main()$/;"	f	language:C
+main	sample/ch12/sharing.c	/^int main(void)$/;"	f	language:C	signature:(void)
+maxfd	code/conc/echoservers.c	/^    int maxfd;        \/* largest descriptor in read_set *\/   $/;"	m	language:C	struct:__anon6	file:
+maxi	code/conc/echoservers.c	/^    int maxi;         \/* highwater index into client array *\/$/;"	m	language:C	struct:__anon6	file:
+mem_brk	code/vm/malloc/memlib.c	/^static char *mem_brk;      \/* Points to last byte of heap plus 1 *\/$/;"	v	language:C	file:
+mem_deinit	code/vm/malloc/memlib.c	/^void mem_deinit(void)$/;"	f	language:C	signature:(void)
+mem_heap	code/vm/malloc/memlib.c	/^static char *mem_heap;     \/* Points to first byte of heap *\/ $/;"	v	language:C	file:
+mem_heap_hi	code/vm/malloc/memlib.c	/^void *mem_heap_hi()$/;"	f	language:C
+mem_heap_lo	code/vm/malloc/memlib.c	/^void *mem_heap_lo()$/;"	f	language:C
+mem_heapsize	code/vm/malloc/memlib.c	/^size_t mem_heapsize() $/;"	f	language:C
+mem_init	code/vm/malloc/memlib.c	/^void mem_init(void)$/;"	f	language:C	signature:(void)
+mem_max_addr	code/vm/malloc/memlib.c	/^static char *mem_max_addr; \/* Max legal heap addr plus 1*\/ $/;"	v	language:C	file:
+mem_pagesize	code/vm/malloc/memlib.c	/^size_t mem_pagesize()$/;"	f	language:C
+mem_reset_brk	code/vm/malloc/memlib.c	/^void mem_reset_brk()$/;"	f	language:C
+mem_sbrk	code/vm/malloc/memlib.c	/^void *mem_sbrk(int incr) $/;"	f	language:C	signature:(int incr)
+mm_checkheap	code/vm/malloc/mm.c	/^void mm_checkheap(int verbose)  $/;"	f	language:C	signature:(int verbose)
+mm_free	code/vm/malloc/mm.c	/^void mm_free(void *bp)$/;"	f	language:C	signature:(void *bp)
+mm_init	code/vm/malloc/mm.c	/^int mm_init(void) $/;"	f	language:C	signature:(void)
+mm_malloc	code/vm/malloc/mm.c	/^void *mm_malloc(size_t size) $/;"	f	language:C	signature:(size_t size)
+mm_realloc	code/vm/malloc/mm.c	/^void *mm_realloc(void *ptr, size_t size)$/;"	f	language:C	signature:(void *ptr, size_t size)
+multvec	code/link/multvec.c	/^void multvec(int *x, int *y, $/;"	f	language:C	signature:(int *x, int *y, int *z, int n)
+mutex	code/conc/ctime_ts.c	/^static sem_t mutex; \/* protects calls to ctime *\/$/;"	v	language:C	file:
+mutex	code/conc/echo_cnt.c	/^static sem_t mutex;   \/* and the mutex that protects it *\/$/;"	v	language:C	file:
+mutex	code/conc/sbuf.h	/^    sem_t mutex;       \/* Protects accesses to buf *\/$/;"	m	language:C++	struct:__anon7
+mutex	sample/ch12/goodcnt.c	/^sem_t mutex;                    \/*Semaphore that protect counter*\/$/;"	v	language:C
+n	code/conc/sbuf.h	/^    int n;             \/* Maximum number of slots *\/$/;"	m	language:C++	struct:__anon7
+name	code/link/elfstructs.c	/^    int name;        \/* string table offset *\/ $/;"	m	language:C	struct:__anon2	file:
+name1	code/vm/mm.h	/^    char *name1, *email1;$/;"	m	language:C++	struct:__anon5
+name2	code/vm/mm.h	/^    char *name2, *email2;$/;"	m	language:C++	struct:__anon5
+nelems_per_thread	code/conc/psum.c	/^long nelems_per_thread; \/* Number of elements summed by each thread *\/$/;"	v	language:C
+next	code/conc/rand.c	/^unsigned int next = 1;$/;"	v	language:C
+nready	code/conc/echoservers.c	/^    int nready;       \/* number of ready descriptors from select *\/   $/;"	m	language:C	struct:__anon6	file:
+offset	code/link/elfstructs.c	/^    int offset;     \/* offset of the reference to relocate *\/ $/;"	m	language:C	struct:__anon3	file:
+open_clientfd	code/src/csapp.c	/^int open_clientfd(char *hostname, int port) $/;"	f	language:C	signature:(char *hostname, int port)
+open_clientfd	common/csapp.c	/^int open_clientfd(char *hostname, int port)$/;"	f	language:C	signature:(char *hostname, int port)
+open_listenfd	code/src/csapp.c	/^int open_listenfd(int port) $/;"	f	language:C	signature:(int port)
+open_listenfd	common/csapp.c	/^int open_listenfd(int port)$/;"	f	language:C	signature:(int port)
+parse_uri	code/netp/tiny/tiny.c	/^int parse_uri(char *uri, char *filename, char *cgiargs) $/;"	f	language:C	signature:(char *uri, char *filename, char *cgiargs)
+parseline	code/ecf/shellex.c	/^int parseline(char *buf, char **argv) $/;"	f	language:C	signature:(char *buf, char **argv)
+pid	code/ecf/signalprob0.c	/^pid_t pid;$/;"	v	language:C
+place	code/vm/malloc/mm.c	/^static void place(void *bp, size_t asize)$/;"	f	language:C	file:	signature:(void *bp, size_t asize)
+pool	code/conc/echoservers.c	/^} pool; \/\/line:conc:echoservers:endpool$/;"	t	language:C	typeref:struct:__anon6	file:
+posix_error	code/src/csapp.c	/^void posix_error(int code, char *msg) \/* posix-style error *\/$/;"	f	language:C	signature:(int code, char *msg)
+posix_error	common/csapp.c	/^void posix_error(int code, char *msg) \/* posix-style error *\/$/;"	f	language:C	signature:(int code, char *msg)
+printarray	code/mem/matmult/mm.c	/^void printarray(array a, int n)$/;"	f	language:C	signature:(array a, int n)
+printblock	code/vm/malloc/mm.c	/^static void printblock(void *bp) $/;"	f	language:C	file:	signature:(void *bp)
+psum	code/conc/psum.c	/^long psum[MAXTHREADS];  \/* Partial sum computed by each thread *\/$/;"	v	language:C
+ptr	code/conc/sharing.c	/^char **ptr;  \/* global variable *\/ \/\/line:conc:sharing:ptrdec$/;"	v	language:C
+ptr	sample/ch12/sharing.c	/^char **ptr;$/;"	v	language:C
+rand	code/conc/rand.c	/^int rand(void)$/;"	f	language:C	signature:(void)
+rand_r	code/conc/rand_r.c	/^int rand_r(unsigned int *nextp)$/;"	f	language:C	signature:(unsigned int *nextp)
+read_requesthdrs	code/netp/tiny/tiny.c	/^void read_requesthdrs(rio_t *rp) $/;"	f	language:C	signature:(rio_t *rp)
+read_set	code/conc/echoservers.c	/^    fd_set read_set;  \/* set of all active descriptors *\/$/;"	m	language:C	struct:__anon6	file:
+ready_set	code/conc/echoservers.c	/^    fd_set ready_set; \/* subset of descriptors ready for reading  *\/$/;"	m	language:C	struct:__anon6	file:
+rear	code/conc/sbuf.h	/^    int rear;          \/* buf[rear%n] is last item *\/$/;"	m	language:C++	struct:__anon7
+reserved	code/link/elfstructs.c	/^    char reserved;   \/* unused *\/  $/;"	m	language:C	struct:__anon2	file:
+reset	code/mem/matmult/mm.c	/^void reset(array c, int n)$/;"	f	language:C	signature:(array c, int n)
+rio_buf	code/include/csapp.h	/^    char rio_buf[RIO_BUFSIZE]; \/* internal buffer *\/$/;"	m	language:C++	struct:__anon4
+rio_buf	common/csapp.h	/^    char rio_buf[RIO_BUFSIZE]; \/* internal buffer *\/$/;"	m	language:C++	struct:__anon1
+rio_bufptr	code/include/csapp.h	/^    char *rio_bufptr;          \/* next unread byte in internal buf *\/$/;"	m	language:C++	struct:__anon4
+rio_bufptr	common/csapp.h	/^    char *rio_bufptr;          \/* next unread byte in internal buf *\/$/;"	m	language:C++	struct:__anon1
+rio_cnt	code/include/csapp.h	/^    int rio_cnt;               \/* unread bytes in internal buf *\/$/;"	m	language:C++	struct:__anon4
+rio_cnt	common/csapp.h	/^    int rio_cnt;               \/* unread bytes in internal buf *\/$/;"	m	language:C++	struct:__anon1
+rio_fd	code/include/csapp.h	/^    int rio_fd;                \/* descriptor for this internal buf *\/$/;"	m	language:C++	struct:__anon4
+rio_fd	common/csapp.h	/^    int rio_fd;                \/* descriptor for this internal buf *\/$/;"	m	language:C++	struct:__anon1
+rio_read	code/src/csapp.c	/^static ssize_t rio_read(rio_t *rp, char *usrbuf, size_t n)$/;"	f	language:C	file:	signature:(rio_t *rp, char *usrbuf, size_t n)
+rio_read	common/csapp.c	/^static ssize_t rio_read(rio_t *rp, char *usrbuf, size_t n)$/;"	f	language:C	file:	signature:(rio_t *rp, char *usrbuf, size_t n)
+rio_readinitb	code/src/csapp.c	/^void rio_readinitb(rio_t *rp, int fd) $/;"	f	language:C	signature:(rio_t *rp, int fd)
+rio_readinitb	common/csapp.c	/^void rio_readinitb(rio_t *rp, int fd)$/;"	f	language:C	signature:(rio_t *rp, int fd)
+rio_readlineb	code/src/csapp.c	/^ssize_t rio_readlineb(rio_t *rp, void *usrbuf, size_t maxlen) $/;"	f	language:C	signature:(rio_t *rp, void *usrbuf, size_t maxlen)
+rio_readlineb	common/csapp.c	/^ssize_t rio_readlineb(rio_t *rp, void *usrbuf, size_t maxlen)$/;"	f	language:C	signature:(rio_t *rp, void *usrbuf, size_t maxlen)
+rio_readn	code/src/csapp.c	/^ssize_t rio_readn(int fd, void *usrbuf, size_t n) $/;"	f	language:C	signature:(int fd, void *usrbuf, size_t n)
+rio_readn	common/csapp.c	/^ssize_t rio_readn(int fd, void *usrbuf, size_t n)$/;"	f	language:C	signature:(int fd, void *usrbuf, size_t n)
+rio_readnb	code/src/csapp.c	/^ssize_t rio_readnb(rio_t *rp, void *usrbuf, size_t n) $/;"	f	language:C	signature:(rio_t *rp, void *usrbuf, size_t n)
+rio_readnb	common/csapp.c	/^ssize_t rio_readnb(rio_t *rp, void *usrbuf, size_t n)$/;"	f	language:C	signature:(rio_t *rp, void *usrbuf, size_t n)
+rio_t	code/include/csapp.h	/^} rio_t;$/;"	t	language:C++	typeref:struct:__anon4
+rio_t	common/csapp.h	/^} rio_t;$/;"	t	language:C++	typeref:struct:__anon1
+rio_writen	code/src/csapp.c	/^ssize_t rio_writen(int fd, void *usrbuf, size_t n) $/;"	f	language:C	signature:(int fd, void *usrbuf, size_t n)
+rio_writen	common/csapp.c	/^ssize_t rio_writen(int fd, void *usrbuf, size_t n)$/;"	f	language:C	signature:(int fd, void *usrbuf, size_t n)
+rover	code/vm/malloc/mm.c	/^static char *rover;           \/* Next fit rover *\/$/;"	v	language:C	file:
+run	code/mem/matmult/mm.c	/^double run(test_funct f, int n)$/;"	f	language:C	signature:(test_funct f, int n)
+run	code/mem/mountain/mountain.c	/^double run(int size, int stride, double Mhz)$/;"	f	language:C	signature:(int size, int stride, double Mhz)
+sbuf	code/conc/echoservert_pre.c	/^sbuf_t sbuf; \/* shared buffer of connected descriptors *\/$/;"	v	language:C
+sbuf_deinit	code/conc/sbuf.c	/^void sbuf_deinit(sbuf_t *sp)$/;"	f	language:C	signature:(sbuf_t *sp)
+sbuf_init	code/conc/sbuf.c	/^void sbuf_init(sbuf_t *sp, int n)$/;"	f	language:C	signature:(sbuf_t *sp, int n)
+sbuf_insert	code/conc/sbuf.c	/^void sbuf_insert(sbuf_t *sp, int item)$/;"	f	language:C	signature:(sbuf_t *sp, int item)
+sbuf_remove	code/conc/sbuf.c	/^int sbuf_remove(sbuf_t *sp)$/;"	f	language:C	signature:(sbuf_t *sp)
+sbuf_t	code/conc/sbuf.h	/^} sbuf_t;$/;"	t	language:C++	typeref:struct:__anon7
+section	code/link/elfstructs.c	/^    char section;    \/* section header index, ABS, UNDEF, *\/ $/;"	m	language:C	struct:__anon2	file:
+serve_dynamic	code/netp/tiny/tiny.c	/^void serve_dynamic(int fd, char *filename, char *cgiargs) $/;"	f	language:C	signature:(int fd, char *filename, char *cgiargs)
+serve_static	code/netp/tiny/tiny.c	/^void serve_static(int fd, char *filename, int filesize) $/;"	f	language:C	signature:(int fd, char *filename, int filesize)
+show_bytes	code/data/show-bytes.c	/^void show_bytes(byte_pointer start, int len) {$/;"	f	language:C	signature:(byte_pointer start, int len)
+show_float	code/data/show-bytes.c	/^void show_float(float x) {$/;"	f	language:C	signature:(float x)
+show_int	code/data/show-bytes.c	/^void show_int(int x) {$/;"	f	language:C	signature:(int x)
+show_pointer	code/data/show-bytes.c	/^void show_pointer(void *x) {$/;"	f	language:C	signature:(void *x)
+show_twocomp	code/data/show-bytes.c	/^void show_twocomp() $/;"	f	language:C
+sigchld_handler	code/conc/echoserverp.c	/^void sigchld_handler(int sig) \/\/line:conc:echoserverp:handlerstart$/;"	f	language:C	signature:(int sig)
+sigchld_handler	sample/ch12/echoserverp.c	/^void sigchld_handler(int sig)$/;"	f	language:C	signature:(int sig)
+simple_show_a	code/data/show-bytes.c	/^void simple_show_a() {$/;"	f	language:C
+simple_show_b	code/data/show-bytes.c	/^void simple_show_b() {$/;"	f	language:C
+size	code/link/elfstructs.c	/^    int size;        \/* object size in bytes *\/ $/;"	m	language:C	struct:__anon2	file:
+slots	code/conc/sbuf.h	/^    sem_t slots;       \/* Counts available slots *\/$/;"	m	language:C++	struct:__anon7
+srand	code/conc/rand.c	/^void srand(unsigned int seed)$/;"	f	language:C	signature:(unsigned int seed)
+string_leg	code/data/show-bytes.c	/^void string_leg() {$/;"	f	language:C
+string_ueg	code/data/show-bytes.c	/^void string_ueg() {$/;"	f	language:C
+sum	code/conc/psum.c	/^void *sum(void *vargp) $/;"	f	language:C	signature:(void *vargp)
+swap	code/link/swap.c	/^void swap() $/;"	f	language:C
+symbol	code/link/elfstructs.c	/^    int symbol:24,  \/* symbol the reference should point to *\/ $/;"	m	language:C	struct:__anon3	file:
+team	code/vm/mm.h	/^    char *team;$/;"	m	language:C++	struct:__anon5
+team_t	code/vm/mm.h	/^} team_t;$/;"	t	language:C++	typeref:struct:__anon5
+test	code/mem/mountain/mountain.c	/^void test(int elems, int stride) \/* The test function *\/$/;"	f	language:C	signature:(int elems, int stride)
+test_show_bytes	code/data/show-bytes.c	/^void test_show_bytes(int val) {$/;"	f	language:C	signature:(int val)
+thread	code/conc/badcnt.c	/^void *thread(void *vargp) $/;"	f	language:C	signature:(void *vargp)
+thread	code/conc/echoservert.c	/^void *thread(void *vargp) $/;"	f	language:C	signature:(void *vargp)
+thread	code/conc/echoservert_pre.c	/^void *thread(void *vargp) $/;"	f	language:C	signature:(void *vargp)
+thread	code/conc/hello.c	/^void *thread(void *vargp) \/* thread routine *\/  \/\/line:conc:hello:beginthread$/;"	f	language:C	signature:(void *vargp)
+thread	code/conc/hellobug.c	/^void *thread(void *vargp) $/;"	f	language:C	signature:(void *vargp)
+thread	code/conc/norace.c	/^void *thread(void *vargp) $/;"	f	language:C	signature:(void *vargp)
+thread	code/conc/race.c	/^void *thread(void *vargp) $/;"	f	language:C	signature:(void *vargp)
+thread	code/conc/sharing.c	/^void *thread(void *vargp) $/;"	f	language:C	signature:(void *vargp)
+thread	sample/ch12/badcnt.c	/^void *thread(void *vargp)$/;"	f	language:C	signature:(void *vargp)
+thread	sample/ch12/goodcnt.c	/^void *thread(void *vargp)$/;"	f	language:C	signature:(void *vargp)
+thread	sample/ch12/hello.c	/^void *thread(void *argvp)$/;"	f	language:C	signature:(void *argvp)
+thread	sample/ch12/sharing.c	/^void *thread(void *vargp)$/;"	f	language:C	signature:(void *vargp)
+type	code/link/elfstructs.c	/^	type:8;     \/* relocation type *\/ $/;"	m	language:C	struct:__anon3	file:
+type	code/link/elfstructs.c	/^    char type:4,     \/* data, func, section, or src file name (4 bits) *\/ $/;"	m	language:C	struct:__anon2	file:
+unix_error	code/src/csapp.c	/^void unix_error(char *msg) \/* unix-style error *\/$/;"	f	language:C	signature:(char *msg)
+unix_error	common/csapp.c	/^void unix_error(char *msg) \/* unix-style error *\/$/;"	f	language:C	signature:(char *msg)
+value	code/link/elfstructs.c	/^    int value;       \/* section offset, or VM address *\/ $/;"	m	language:C	struct:__anon2	file:
+x	code/link/dll.c	/^int x[2] = {1, 2};$/;"	v	language:C
+x	code/link/main2.c	/^int x[2] = {1, 2};$/;"	v	language:C
+y	code/link/dll.c	/^int y[2] = {3, 4};$/;"	v	language:C
+y	code/link/main2.c	/^int y[2] = {3, 4};$/;"	v	language:C
+z	code/link/dll.c	/^int z[2];$/;"	v	language:C
+z	code/link/main2.c	/^int z[2];$/;"	v	language:C
